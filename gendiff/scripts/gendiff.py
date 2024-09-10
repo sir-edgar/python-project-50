@@ -1,8 +1,9 @@
 import argparse
+from gendiff.modules.difference import generate_diff
 
 
-def main():
-	print('Hello!')
+def main(path1, path2):
+    print(generate_diff(path1, path2))
 
 
 if __name__ == '__main__':
