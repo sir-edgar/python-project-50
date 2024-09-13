@@ -7,3 +7,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/df66c0cbbeca7d822f23/maintainability)](https://codeclimate.com/github/hexlet-boilerplates/python-package/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/df66c0cbbeca7d822f23/test_coverage)](https://codeclimate.com/github/hexlet-boilerplates/python-package/test_coverage)
 
+[![asciicast](https://asciinema.org/a/1tCh4chU0ZN181SMGiyOSmrjD.svg)](https://asciinema.org/a/1tCh4chU0ZN181SMGiyOSmrjD)
