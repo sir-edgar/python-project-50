@@ -1,24 +1,6 @@
 import json
 
 
-# def generate_diff(file_path1, file_path2):
-#     dict1 = json.load(open(file_path1))
-#     dict2 = json.load(open(file_path2))
-#     result = ''
-#     for key in dict1:
-#         if key in dict2:
-#             if dict1.get(key) == dict2.get(key):
-#                 result = result + '  ' + key + ': ' + dict1.get(key) + '\n'
-#             else:
-#                 result = result + '- ' + key + ': ' + str(dict1.get(key)) + '\n'
-#                 result = result + '+ ' + key + ': ' + str(dict2.get(key)) + '\n'
-#         else:
-#             result = result + '- ' + key + ': ' + str(dict1.get(key)) + '\n'
-#     for key in dict2:
-#         if key not in dict1:
-#             result = result + '+ ' + key + ': ' + str(dict2.get(key)) + '\n'
-#     return result
-
 def generate_diff(file_path1, file_path2):
     dict1 = json.load(open(file_path1))
     dict2 = json.load(open(file_path2))
@@ -39,4 +21,3 @@ def generate_diff(file_path1, file_path2):
             else:
                 result = result + f'+ {key}: {dict2[key]}' + '\n'
     return result
-
