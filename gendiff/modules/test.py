@@ -22,5 +22,3 @@ print(f'difference is: {difference}')
 print(f'symmetric_difference is: {symmetric_difference}')
 print(list(set2))
 print(sorted(list(set2)))
-
-#string for test
